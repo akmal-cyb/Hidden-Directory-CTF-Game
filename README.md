@@ -18,4 +18,7 @@ Easy to run locally or in IDEs like PyCharm
 
 🚀 Getting Started
 To run this CTF challenge locally:
+📥 Installation
+bash
+git clone https://github.com/akmal-cyb/Hidden-Directory-CTF-Game.git
 You can run and debug the project easily in PyCharm by opening the project folder and running app.py.
