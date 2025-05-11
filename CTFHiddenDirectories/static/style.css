@@ -1,0 +1,162 @@
+/* Importing Press Start 2P font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Resetting margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Press Start 2P', monospace;
+    background: linear-gradient(135deg, #0a192f, #34495e);
+    color: #ecf0f1;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Container for main content */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1rem;
+    color: #bdc3c7;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.image {
+    text-align: center;
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Download Button Styling */
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #3498db;
+}
+
+/* Flag Input Section */
+.flag-input {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.flag-input input {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.flag-input button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.flag-input button:hover {
+    background-color: #3498db;
+}
+
+.correct-flag {
+    color: #2ecc71;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.incorrect-flag {
+    color: #e74c3c;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Hint Section */
+.hint a {
+    color: #f39c12;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#hint-section {
+    margin-top: 15px;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #95a5a6;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
