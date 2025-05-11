@@ -3,11 +3,7 @@ This is a basic Capture The Flag (CTF) challenge designed to test directory enum
 
 ## 🕹️ Game Objective
 The player must discover hidden directories (e.g., `/secret`, `/config`) within a hosted web application to locate and retrieve the hidden flag(s).
-
-🧰 Tools Recommended
-dirb
-gobuster
-ffuf
+![image](https://github.com/user-attachments/assets/10d4512a-ad87-42f2-8b15-3caddcc263ff)
 
 🛠️ Features
 Built with Python (Flask) and HTML/CSS
@@ -22,3 +18,8 @@ To run this CTF challenge locally:
 bash
 git clone https://github.com/akmal-cyb/Hidden-Directory-CTF-Game.git
 You can run and debug the project easily in PyCharm by opening the project folder and running app.py.
+
+🧰 Tools Recommended
+dirb
+gobuster
+ffuf
